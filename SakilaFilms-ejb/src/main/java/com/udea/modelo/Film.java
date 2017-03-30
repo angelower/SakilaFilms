@@ -218,6 +218,9 @@ public class Film implements Serializable {
         this.originalLanguageId = originalLanguageId;
     }
 
+    public Short getLanguage(){ return this.languageId.getLanguageId();}
+    public void setLangague(short code){this.languageId = new Language(code);}
+    
     @Override
     public int hashCode() {
         int hash = 0;
