@@ -140,5 +140,13 @@ public class Language implements Serializable {
     public String toString() {
         return "com.udea.modelo.Language[ languageId=" + languageId + " ]";
     }
+
+   public String getRate() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getLanguage() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
