@@ -19,7 +19,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/CustomerList.xhtml</welcome-file>
+        <welcome-file>faces/FilmrList.xhtml</welcome-file>
     </welcome-file-list>
     <context-param>
         <param-name>primefaces.PUBLIC_CAPTCHA_KEY</param-name>

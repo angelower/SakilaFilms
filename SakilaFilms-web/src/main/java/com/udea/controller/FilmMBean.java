@@ -38,8 +38,10 @@ public class FilmMBean {
     
     //Retorna una lista de películas para mostrar en un datatable de JSF
     public List<Film> getFilms(){
-        if ((films==null)||(films.isEmpty()))
+        if ((films==null)||(films.isEmpty())){
             refresh();
+        }
+            
             return films;
     }
     
